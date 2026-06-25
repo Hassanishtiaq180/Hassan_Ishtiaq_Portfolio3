@@ -1,69 +1,62 @@
-[![GitHub](https://img.shields.io/badge/GitHub-L--0102-blue?logo=github&style=for-the-badge)](https://github.com/L-0102)   [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-LiuPeijie-blue?logo=googlescholar&logoColor=white&style=for-the-badge)](https://scholar.google.com/citations?user=NKWRhFoAAAAJ&hl=en)
+[![GitHub](https://img.shields.io/badge/GitHub-Hassan--Ishtiaq-blue?logo=github&style=for-the-badge)](https://github.com/your-username-here)
 
 ## 👋 About Me
 
-I am a Master's student in **Electronic Engineering** at **Tsinghua University (2023–2026)**, focusing on **Large Language Models (LLMs)**, **LLM Agents**, and **Data Mining**.
+I am a **Hardware & Electronic Design Engineer** specializing in Power Electronics, Industrial Embedded Systems, and Intelligent Motor Control. I hold a Master of Science in Electrical Engineering from the **National University of Sciences and Technology (NUST)**.
 
-My name is **Peijie Liu**, and I am currently pursuing a Master's degree in **Electronic Engineering** at **Tsinghua University (2023–2026)**. I graduated with a Bachelor's degree in **Automation** from **Xi'an Jiaotong University (2019–2023)**.
+Driven by a passion for robust, high-efficiency physical computing, my work bridges the gap between complex power stages and real-time embedded firmware. I specialize in developing high-performance industrial systems, ranging from wide-bandgap semiconductor layouts to precision multi-axis motor controllers.
 
-I have always been fascinated by the intersection of **artificial intelligence** and **real-world applications**. My research interests include **Large Language Models (LLMs)**, **LLM Agents**, and **Data Mining**, and I am particularly interested in exploring how these technologies can transform industries such as transportation, education, and decision-making.
+Outside of my professional R&D work, I am highly focused on personal development and continuous technical growth. I am deeply invested in keeping pace with the latest advancements in wide-bandgap semiconductors, high-speed PCB layout methodologies, and modern control theory.
 
-Outside of my academic work, I enjoy reading books on technology and society and love exploring new scientific developments. I am also passionate about **running**, **table tennis**, and frequently enjoy hiking in nature, which helps me stay balanced and fuels my creativity.
+As an engineer, I thrive on solving complex hardware constraints and optimizing system-level efficiency. I am currently focusing on advanced industrial designs and collaborating on cutting-edge power stage architectures.
 
-As a researcher, I am driven by a deep curiosity and the desire to make a meaningful impact on the world. I am excited to continue working on **AI-powered decision-making systems** and collaborate with other researchers to push the boundaries of **LLMs** and **data intelligence**.
-
-Feel free to connect with me if you're interested in discussing research, AI, or new ideas!
+Feel free to connect with me if you want to discuss power electronics, custom embedded hardware, or innovative circuit design!
 
 ---
 
-## 🧪 Research Experience
+## 🧪 Engineering & Project Experience
 
-I am currently working on **LLM-based reasoning, agentic recommendation systems, and data-driven analysis of online platforms**.
+I focus on **high-density power converter topologies, advanced motor control algorithms, and industrial IoT master control architectures.**
 
-### 1. 🔐 **Token Signature**
+### 1. ⚡ Custom HVAC Control Board & Inverter Stage
+Designed and developed a comprehensive 220VAC HVAC control system featuring an **Infineon IMC102T** motor controller paired with an **ESP32 master** microcontroller. Integrated active Power Factor Correction (PFC), single-shunt current feedback loops, and precise electronic expansion valve (EEV) stepper motor control.
 
-Studied how monotonicity in token probability distributions predicts the effectiveness of Chain-of-Thought (CoT) prompting, and proposed lightweight metrics and a **Dynamic CoT** framework that improves CoT usage efficiency.
+### 2. 🏎 Field-Oriented Control (FOC) & Motor Drivers
+Extensive experience configuring and tuning Field-Oriented Control (FOC) systems using **Infineon iMOTION** hardware. Specialized in tuning current regulator bandwidth, optimizing $K_p / K_i$ loop gains, and establishing robust UART/modbus communications with real-time Motion Control Engines (MCE).
 
-### 2. 🚶 TravelReasoner
+### 3. 🌐 Industrial IoT & Robust Embedded Firmware
+Developed robust, field-deployable firmware pipelines utilizing **ESP32-S3** and **STM32** platforms. Implemented custom dual-stage bootloaders, secure over-the-air (OTA) firmware update structures, and advanced low-power state management for Wi-Fi/cellular-enabled remote telemetry hardware.
 
-Collaborated with **Guizhou Zhicheng Technology** to build a large-scale dataset mapping travel diaries to reasoning chains, and designed a two-stage **SFT** pipeline to train an LLM-based travel survey reasoning simulator.
-
-### 3. 🤖 **AgentRecBench**
-
-Co-built **AgentSociety**, a unified benchmark and simulator for **LLM-agent-based recommender systems**, covering classical, interest-evolution, and cold-start scenarios.
-
-### 4. 🎬 **Short-Form Video Ecosystem**
-
-Analyzed large-scale data from short-form video platforms to understand how platform mechanisms lower content barriers and **democratize virality** for ordinary creators.
+### 4. 🔬 Heterogeneous Power Stage R&D
+Researched and drafted advanced architectures for heterogeneous power stages using next-generation wide-bandgap semiconductors (**GaN and SiC**) targeted for 400V-class high-efficiency inverters. Focused on balancing gate-drive timing dynamics and thermal distribution across mixed-device legs.
 
 ---
 
 ## 🛠 Skills & Tools
 
-* **Languages**: Python (PyTorch), Markdown, LaTeX
-* **Research**: LLMs, Agentic Systems, Recommendation Systems, Data Mining
-* **Mindset**: Fast iteration, open-source adaptation, reproducible research
-* **Language**: English (CET-6, fluent)
+* **EDA & PCB Layout**: Altium Designer, KiCad (Multi-layer high-speed routing, rigid-flex, signal/power integrity)
+* **Power Electronics**: GaN/SiC wide-bandgap design, Inverter topologies, PFC circuits, Gate driver optimization
+* **Embedded Firmware**: C/C++, Real-time operating systems (FreeRTOS), ESP-IDF, STM32Cube, Infineon MCE
+* **Peripherals & Protocols**: SPI, I2C, UART, CAN bus, Modbus, Wi-Fi, Bluetooth LE
+* **Hardware Lab Tools**: Mixed-Signal Oscilloscopes, Logic Analyzers, Programmable Electronic Loads, Spectrum Analyzers
 
 ---
 
 ## 📚 Education
 
-* **Tsinghua University**
-  * Master of Electronic Information, 2023–2026
-* **Xi’an Jiaotong University**
-  * Bachelor of Automation, 2019–2023
+* **National University of Sciences and Technology (NUST)**
+  * Master of Science in Electrical Engineering
+  * Focus: Embedded systems, computer networks, and reinforcement learning applications
 
 ---
 
-## 🔍 Research Interests
+## 🔍 Engineering Interests
 
-**Large Language Models** · **LLM Agents** · **Data Mining**
+**Power Electronics** · **Wide-Bandgap Semiconductors (GaN/SiC)** · **Field-Oriented Control (FOC)** · **High-Speed PCB Design** · **Industrial IoT**
 
 ---
 
 ## 📬 Contact
 
-* **Email**: `liupj23@mails.tsinghua.edu.cn` / `1941376717@qq.com`
-* **GitHub**: [L-0102](https://github.com/L-0102)
-* **Google Scholar**: [Profile](https://scholar.google.com/citations?user=NKWRhFoAAAAJ&hl=en)
+* **GitHub**: [Your Profile](https://github.com/your-username-here)
+* **LinkedIn**: [Your Profile Link Here]
