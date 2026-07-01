@@ -60,7 +60,6 @@ I focus on high-density power converter topologies, advanced motor control algor
 * Developed a firmware-level fault handler designed to calculate real-time thermodynamic efficiency trends across distributed sensor nodes.
 * Authored a hardware-software **"No Gas Protection"** interlock protocol: if the fuel manifold pressure or temperature changes reveal a lack of gas supply during an active ignition command (such as fuel exhaustion), the firmware executes a priority shutdown sequence. This protocol immediately cuts drive current to the compressor and isolates the fuel supply line, preventing a destructive high-vacuum state from compromising mechanical seals.
 ![Description of the hardware or PCB layout](/static/assets/img/Heat_Pumo_table.jpeg)
-![Description of the hardware or PCB layout](/static/assets/img/Heat_pump_PCB.jpeg)
 ---
 
 ### 3. 💧 Touch-Interactive Smart Water Dispenser Platform
