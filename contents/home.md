@@ -114,4 +114,4 @@ Researched and deployed an algorithmic routing framework optimizing data package
 ## 📬 Contact
 
 * **GitHub**: [Your Profile](https://github.com/your-username-here)
-* **LinkedIn**: [Your Profile Link Here]
+* **LinkedIn**: https://www.linkedin.com/in/hassan-ishtiaq-minhas-b3460695/
