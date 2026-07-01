@@ -133,6 +133,15 @@ section .main-body{
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+section .main-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
 section .main-body:hover{
     transform: translateY(-6px);
     box-shadow: 0 26px 60px rgba(15, 23, 42, 0.18);
