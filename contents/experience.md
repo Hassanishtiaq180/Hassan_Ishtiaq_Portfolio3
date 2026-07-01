@@ -108,7 +108,7 @@ I focus on high-density power converter topologies, advanced motor control algor
 * **Technology Stack:** ESP32-S3, STM32, C/C++, Secure Boot, OTA Pipelines
 * **Firmware Pipelines:** Developed robust, field-deployable firmware pipelines utilizing ESP32-S3 and STM32 platforms.
 * **Reliability Implementations:** Implemented custom dual-stage bootloaders, secure over-the-air (OTA) firmware update structures with fallback partition redundancy, and advanced low-power state management utilizing hardware watchdog timers to ensure seamless remote telemetry recovery during field brownout scenarios.
-static/assets/img/Dubai_taxi_PCB.png
+![Description of the hardware or PCB layout](/static/assets/img/Dubai_taxi_PCB.png) 
 ---
 
 ### 7. 🔬 Heterogeneous Power Stage R&D
