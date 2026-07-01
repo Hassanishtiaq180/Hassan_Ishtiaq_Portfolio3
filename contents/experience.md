@@ -109,6 +109,9 @@ I focus on high-density power converter topologies, advanced motor control algor
 * **Firmware Pipelines:** Developed robust, field-deployable firmware pipelines utilizing ESP32-S3 and STM32 platforms.
 * **Reliability Implementations:** Implemented custom dual-stage bootloaders, secure over-the-air (OTA) firmware update structures with fallback partition redundancy, and advanced low-power state management utilizing hardware watchdog timers to ensure seamless remote telemetry recovery during field brownout scenarios.
 ![Description of the hardware or PCB layout](/static/assets/img/Dubai_taxi_PCB.png) 
+![Description of the hardware or PCB layout](/static/assets/img/Dubai_taxi_PCB_proteus.png) 
+![Description of the hardware or PCB layout](/static/assets/img/Dubai_taxi_PCB_proteus_PS.png) 
+
 ---
 
 ### 7. 🔬 Heterogeneous Power Stage R&D
