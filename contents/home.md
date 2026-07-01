@@ -1,4 +1,4 @@
-[![GitHub](https://img.shields.io/badge/GitHub-Hassanishtiaq180-blue?logo=github&style=for-the-badge)]((https://hassanishtiaq180.github.io/Hassan_Ishtiaq_Portfolio/))
+[![GitHub](https://img.shields.io/badge/GitHub-Hassanishtiaq180-blue?logo=github&style=for-the-badge)]([(https://hassanishtiaq180.github.io/Hassan_Ishtiaq_Portfolio/)](https://hassanishtiaq180.github.io/Hassan_Ishtiaq_Portfolio/))
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hassan_Ishtiaq-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/hassan-ishtiaq-minhas-b3460695/)
 
 ## About Me
