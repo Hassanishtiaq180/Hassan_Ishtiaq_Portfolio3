@@ -1,7 +1,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Hassanishtiaq180-blue?logo=github&style=for-the-badge)](https://github.com/Hassanishtiaq180)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hassan_Ishtiaq-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/hassan-ishtiaq-minhas-b3460695/)
 
-## 👋 About Me
+## ðŸ‘‹ About Me
 
 I am a **Hardware & Electronic Design Engineer** specializing in Power Electronics, Industrial Embedded Systems, and Intelligent Motor Control. I hold a Master of Science in Electrical Engineering from the **National University of Sciences and Technology (NUST)**.
 
@@ -13,7 +13,7 @@ Feel free to connect with me if you want to discuss power electronics, custom em
 
 ---
 
-## 🛠 Skills & Tools
+## ðŸ›  Skills & Tools
 
 | Category | Skills |
 |---|---|
@@ -25,7 +25,7 @@ Feel free to connect with me if you want to discuss power electronics, custom em
 
 ---
 
-## 📚 Education
+## ðŸ“š Education
 
 **National University of Sciences and Technology (NUST)**
 - Master of Science in Electrical Engineering
@@ -33,6 +33,6 @@ Feel free to connect with me if you want to discuss power electronics, custom em
 
 ---
 
-## 🔍 Engineering Interests
+## ðŸ” Engineering Interests
 
-**Power Electronics** · **Wide-Bandgap Semiconductors (GaN/SiC)** · **Field-Oriented Control (FOC)** · **High-Speed PCB Design** · **Industrial IoT**
+**Power Electronics** Â· **Wide-Bandgap Semiconductors (GaN/SiC)** Â· **Field-Oriented Control (FOC)** Â· **High-Speed PCB Design** Â· **Industrial IoT**
