@@ -91,7 +91,6 @@ I focus on high-density power converter topologies, advanced motor control algor
 * **System Design:** Designed and developed a comprehensive 220VAC HVAC control system integrating active Power Factor Correction (PFC) boost infrastructure and a single-shunt current feedback loop for phase current reconstruction.
 * **Component Coordination:** Configured an Infineon IMC102T motor controller to operate as a dedicated real-time motor drive co-processor, pairing it with an ESP32 master microcontroller that coordinates electronic expansion valve (EEV) stepper motor control, system-wide diagnostics, and communication routing.
 
-![Description of the hardware or PCB layout](/static/assets/img/IPM_drive.jpg)
 ![Description of the hardware or PCB layout](/static/assets/img/IPM_drive_new.jpeg)
 
 ---
