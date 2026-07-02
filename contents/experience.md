@@ -195,6 +195,7 @@ I focus on high-density power converter topologies, advanced motor control algor
 * Identified and selected the STEVAL-IPM20B Intelligent Power Module for motor control application.
 * Utilized Motor Control Workbench to conduct real-time tests on the compressor.
 * Calibrated the compressor motor using STM32 for optimal performance across load ranges.
+![STM32](/static/assets/img/stm32.jpg)
 
 ---
 
