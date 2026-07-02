@@ -39,32 +39,22 @@
 
     <!-- Mathematics -->
     <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
         MathJax = {
             tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
+                packages: {},
+                inlineMath: [['$', '$'], ['\\(', '\\()']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: false,
+                processEnvironments: true,
+                processRefs: true,
+                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
+                tags: 'all',
+                tagSide: 'right',
+                tagIndent: '0.8em',
+                useLabelIds: true,
+                maxMacros: 10000,
+                maxBuffer: 5 * 1024,
+                formatError: (jax, err) => jax.formatError(err)
             }
         };
     </script>
@@ -85,8 +75,7 @@
     <!-- Navigation-->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
+            <a id="page-top-title" class="navbar-brand fw-bold" href="index.html"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -95,16 +84,16 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home">HOME</a>
+                        <a class="nav-link me-lg-3 active" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="publications.html">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
+                        <a class="nav-link me-lg-3" href="experience.html">EXPERIENCE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="awards.html">AWARDS</a>
                     </li>
                 </ul>
                 <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ms-lg-3" type="button"
@@ -116,19 +105,18 @@
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');"
+    <section class="top-section hero-full" style="background-image: url('static/assets/img/background.jpeg');"
         aria-label="Hero section with background and tagline">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-                <p class="hero-keywords">Power Electronics | Embedded Systems | Motor Control | IoT</p>
+                <p class="hero-keywords">Power Electronics Â· Embedded Systems Â· Motor Control Â· IoT</p>
             </div>
         </div>
     </section>
-    <!-- Top Section -->
 
     <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light" id="home" style="padding-top: 5rem; padding-bottom: 3rem;">
+    <section class="bg-gradient-primary-to-secondary-light" id="home" style="padding-top: 5rem; padding-bottom: 5rem;">
         <div class="container px-5">
             <div class="row align-items-center mb-4">
                 <div class="col-lg-8 col-md-7">
@@ -138,51 +126,13 @@
                     </header>
                 </div>
                 <div class="col-lg-4 col-md-5 text-center text-md-end mt-4 mt-md-0" id="avatar-container">
-                    <img class="shadow avatar-img" src="static/assets/img/Photo.png" alt="Profile photo of Hassan Ishtiaq">
+                    <img class="shadow avatar-img" src="static/assets/img/photo.png" alt="Profile photo of Hassan Ishtiaq">
                 </div>
             </div>
             <div class="main-body" id="home-md"></div>
         </div>
     </section>
-    <!-- Home -->
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-                <p class="section-subtitle">Selected papers and preprints in AI, recommendation, and web data.</p>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
-        </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-neutral mt5 md5" id="experience">
-        <div class="container px-5">
-            <header>
-                <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
-                <p class="section-subtitle">Industry and research experience around LLM applications.</p>
-            </header>
-            <div class="main-body" id="experience-md"></div>
-        </div>
-    </section>
-    <!-- Experience -->
-
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-                <p class="section-subtitle">Scholarships, competitions, and honors.</p>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
-        </div>
-    </section>
-    <!-- Awards -->
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
