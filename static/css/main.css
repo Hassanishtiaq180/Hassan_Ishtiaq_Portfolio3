@@ -335,32 +335,8 @@ section .main-body li {
 }
 
 /* Experience timeline */
-.experience-timeline{
-    position: relative;
-    padding-left: 1.6rem;
-    border-left: 2px solid rgba(148,163,184,0.45);
-}
 
-.experience-timeline > *{
-    position: relative;
-    margin-bottom: 1.5rem;
-}
 
-.experience-timeline > *::before{
-    content: "";
-    position: absolute;
-    left: -1.05rem;
-    top: 0.35rem;
-    width: 0.7rem;
-    height: 0.7rem;
-    border-radius: 999px;
-    background-image: var(--accent-gradient);
-    box-shadow: 0 0 0 4px rgba(129,140,248,0.25);
-}
-
-[data-theme="dark"] .experience-timeline{
-    border-left-color: rgba(55,65,81,0.9);
-}
 
 /* Publication badges */
 .pub-badge{
