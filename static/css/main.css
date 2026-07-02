@@ -468,3 +468,63 @@ footer a:hover{
     color: #e5e7eb;
     text-shadow: 0 0 14px rgba(248,250,252,0.75);
 }
+/* Experience accordion */
+section .main-body details {
+    border: 1px solid rgba(148,163,184,0.25);
+    border-radius: 0.75rem;
+    margin-bottom: 0.6rem;
+    overflow: hidden;
+}
+
+section .main-body details summary {
+    padding: 0.85rem 1.2rem;
+    cursor: pointer;
+    list-style: none;
+    background: rgba(13,148,136,0.06);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section .main-body details summary::-webkit-details-marker { display: none; }
+
+section .main-body details summary::before {
+    content: "▶";
+    font-size: 0.65rem;
+    color: var(--h-title-color);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+section .main-body details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+section .main-body details summary:hover {
+    background: rgba(13,148,136,0.12);
+}
+
+section .main-body details[open] summary {
+    border-bottom: 1px solid rgba(148,163,184,0.2);
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+section .main-body details > *:not(summary) {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+[data-theme="dark"] section .main-body details {
+    border-color: rgba(55,65,81,0.5);
+}
+
+[data-theme="dark"] section .main-body details summary {
+    background: rgba(45,212,191,0.05);
+}
+
+[data-theme="dark"] section .main-body details summary:hover {
+    background: rgba(45,212,191,0.1);
+}
